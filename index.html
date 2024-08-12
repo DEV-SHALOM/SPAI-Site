@@ -15,7 +15,6 @@
     />
     <link rel="preload" as="image" href="./images/Svg Image 2.png" />
     <link rel="preload" as="image" href="./images/Svg Image 3.png" />
-    
     <link rel="preload" as="image" href="./images/Svg Image 1.png" />
     <meta
       name="description"
@@ -25,81 +24,73 @@
       rel="Website Icon"
       href="./images/c7455dd6-d4b0-4460-a955-17588047d1ac-removebg-preview.png"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="./aos-master/aos-master/dist/aos.css">
     <script src="./aos-master/aos-master/dist/aos.js"></script>
-    
+
+
     <title>S.P.A.I&#x2013; AI Sales CallBot</title>
+
+    <script defer src="https://openai-widget.web.app/ChatComponent.bundle.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Check if the chat container exists
+    var chatContainer = document.getElementById('chat-container');
+    // If the chat container doesn't exist, create it
+    if (!chatContainer) {
+      chatContainer = document.createElement('div');
+      chatContainer.id = 'chat-container';
+      document.body.appendChild(chatContainer);
+    }
+    // Initialize the Chat component
+    if (window.ChatComponent) {
+      ChatComponent.init('V5bOpGwbtGdBZKE7c6j8','#chat-container');
+    } else {
+      console.error('ChatComponent is not available');
+    }
+  });
+</script>
+            
   </head>
 
   
 
-  <div class="headerTab">
-    <a href="#"
-      ><img
-        class="headerTabImg"
-        style="pointer-events: none"
-        src="./images/c7455dd6-d4b0-4460-a955-17588047d1ac-removebg-preview.png"
-        alt="Header Logo of S.P.A.I website"
-    /></a>
-    <div class="transperentImageOverlay"></div>
-    <div class="headerTabLink">
-      <a class="tabLink How" href="#how">How it works</a>
-      <a class="tabLink Services" href="#services">Services</a>
-      <a class="tabLink FAQs" href="#faqs">FAQs</a>
-    </div>
-    <a class="headerTabBtnLink" target="_blank" href="https://wa.link/yvk9ui"
-      ><button class="headerTabBtn1">Schedule a Call</button></a
-    >
-  </div>
-  <header id="main">
-    <div class="firstBodyDiv" id="firstBodyDiv">
-      <h1 class="firstBodyDivText">
-        Get <strong class="boldExclusive">Exclusive</strong> AI Sales
-      </h1>
-      <h1 class="secondBodyDivText">Agents for your business</h1>
-      <p class="firstBodyDivParagraph">
-        Handle inquiries and scheduling, boosts sales profitability up to
-        <strong>30x</strong>, and cuts stress from customer interactions by
-        <strong>80%</strong>.
-      </p>
-      <a class="headerTabBtnLink Second" target="_blank" href="https://wa.link/yvk9ui"
-        ><button class="headerTabBtn2">Schedule a Call</button></a
+  <body>
+    <div class="headerTab">
+      <a href="#"
+        ><img
+          class="headerTabImg"
+          style="pointer-events: none"
+          src="./images/c7455dd6-d4b0-4460-a955-17588047d1ac-removebg-preview.png"
+          alt="Header Logo of S.P.A.I website"
+      /></a>
+      <div class="transperentImageOverlay"></div>
+      <div class="headerTabLink">
+        <a class="tabLink How" href="#how">How it works</a>
+        <a class="tabLink Services" href="#services">Services</a>
+        <a class="tabLink FAQs" href="#faqs">FAQs</a>
+      </div>
+      <a class="headerTabBtnLink" target="_blank" href="https://wa.link/yvk9ui"
+        ><button class="headerTabBtn1">Schedule a Call</button></a
       >
     </div>
-  </header>
-
-  <body>
-
-    <script defer src="https://openai-widget.web.app/ChatComponent.bundle.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // Check if the chat container exists
-        var chatContainer = document.getElementById('chat-container');
-        // If the chat container doesn't exist, create it
-        if (!chatContainer) {
-          chatContainer = document.createElement('div');
-          chatContainer.id = 'chat-container';
-          document.body.appendChild(chatContainer);
-        }
-        // Initialize the Chat component
-        if (window.ChatComponent) {
-          ChatComponent.init('V5bOpGwbtGdBZKE7c6j8','#chat-container');
-        } else {
-          console.error('ChatComponent is not available');
-        }
-      });
-    </script>
-                
-            
-
+    <header id="main">
+      <div class="firstBodyDiv" id="firstBodyDiv">
+        <h1 class="firstBodyDivText">
+          Get <strong class="boldExclusive">Exclusive</strong> AI Sales
+        </h1>
+        <h1 class="secondBodyDivText">Agents for your business</h1>
+        <p class="firstBodyDivParagraph">
+          Handle inquiries and scheduling, boosts sales profitability up to
+          <strong>30x</strong>, and cuts stress from customer interactions by
+          <strong>80%</strong>.
+        </p>
+        <a class="headerTabBtnLink Second" target="_blank" href="https://wa.link/yvk9ui"
+          ><button class="headerTabBtn2">Schedule a Call</button></a
+        >
+      </div>
+    </header>
     <div class="thirdImageDiv">
       <img
         class="thirdImage"
@@ -402,17 +393,17 @@
           ><button class="headerTabBtn3">⚙ AI Agent ⚙</button></a
         >
       </div>
-      <div id="chat-container"></div>
       <br />
-      <footer>
-          <h2>Copyright © 2024 | All Rights Reserved.</h2>
-          <p>Made by Shalom Uwagboe</p>
-        </footer>
     </div>
-
-    <script defer>
-        AOS.init()
+    <div id="chat-container"></div>
+    
+    <script>
+      AOS.init();
     </script>
 
-  </body>
+</body>
+<footer>
+    <h2>Copyright © 2024 | All Rights Reserved.</h2>
+    <p>Made by Shalom Uwagboe</p>
+  </footer>
 </html>

@@ -44,4 +44,3 @@
             }
             lastScrollTop = scrollTop;
         });
-
